@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "chelseafc",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
+    "photo": "https://cdns.klimg.com/bola.net/library/upload/21/2021/09/645x430/chelsea_b275ef1.jpg",
+    "likes": "127,319",
+    "description": "So good to have a full crowd back at the Bridge!"
+  },
+  {
+    "id": 2,
+    "name": "mrtjkt",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/MRT_Jakarta_logo_vertical.svg/1200px-MRT_Jakarta_logo_vertical.svg.png",
+    "photo": "https://cdn.futuready.com/artikel/media/2019/03/26160438/mrt-1.jpg",
+    "likes": "3,129",
+    "description": "Operasional MRT jakarta sudah kembali normal. Mohon maaf atas ketidaknyamanan yang ditimbulkan."
+  },
+  {
+    "id": 3,
+    "name": "razer",
+    "logo": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/90758454_10159707225992576_1772984004690051072_n.png",
+    "photo": "https://m.media-amazon.com/images/I/51XPXmNGy9L._AC_SL1500_.jpg",
+    "likes": "43,694",
+    "description": "Sit tight and game for hours with the Razer Kraken X for Console—built with an ultra-light design, clear & accurate positional audio and crystal-clear communication, making your console gaming marathons a breeze."
+  },
+  {
+    "id": 4,
+    "name": "9gag",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png",
+    "photo": "https://i.kym-cdn.com/photos/images/original/001/557/799/b60.jpg",
+    "likes": "349,589",
+    "description": "I was yound and hopeful"
+  },
+  {
+    "id": 5,
+    "name": "championsleague",
+    "logo": "https://1000logos.net/wp-content/uploads/2020/10/UEFA-Champions-League-Logo-1992.jpg",
+    "photo": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(907x313:909x311)/origin-imgresizer.eurosport.com/2021/09/11/3217057-65896408-2560-1440.jpg",
+    "likes": "428,612",
+    "description": "Lukaku scores his first ever goals af Stamford Bridge"
+  },
+  {
+    "id": 6,
+    "name": "porsche",
+    "logo": "https://lezebre.lu/images/detailed/79/45326-Sticker-Porsche-Logo.png",
+    "photo": "https://car-images.bauersecure.com/pagefiles/87305/930_turbo_050.jpg",
+    "likes": "125,251",
+    "description": "A standout group thats benn 40 years in the marking, the Lopresto Collection compires 150 cars, many of which are early production vehicles and one off prototypes. The sole exception on this all italian fleet? The iconic Porsche 930 turbo."
+  }
+]

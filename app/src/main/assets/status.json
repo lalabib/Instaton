@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Your Story",
+    "picture": "https://avatars.githubusercontent.com/u/57593172"
+  },
+  {
+    "id": 2,
+    "name": "billieilish",
+    "picture": "https://lastfm.freetls.fastly.net/i/u/770x0/c5bc72cc32bfff229c5928877fb61a43.jpg"
+  },
+  {
+    "id": 3,
+    "name": "redbull",
+    "picture": "https://i.pinimg.com/originals/45/3e/4e/453e4e8263485440c68993dc00c298ef.jpg"
+  },
+  {
+    "id": 4,
+    "name": "9gag",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+  },
+  {
+    "id": 5,
+    "name": "rintiksedu",
+    "picture": "https://pbs.twimg.com/profile_images/1397160748028108803/5MTK5XkK.jpg"
+  },
+  {
+    "id": 6,
+    "name": "john",
+    "picture": "https://i.dawn.com/large/2019/05/5ce52d8edc02a.jpg"
+  },
+  {
+    "id": 7,
+    "name": "paul",
+    "picture": "https://cdn.idntimes.com/content-images/community/2021/04/paul-a929f8b048907cfc7ddd653dc2f4d760-19203a453b769b1ed32a877ec355c182_600x400.jpg"
+  },
+  {
+    "id": 8,
+    "name": "github",
+    "picture": "https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg"
+  },
+  {
+    "id": 9,
+    "name": "google",
+    "picture": "https://pbs.twimg.com/profile_images/805651234698842112/uPSrYOHT.jpg"
+  },
+  {
+    "id": 10,
+    "name": "luffy",
+    "picture": "https://cdn.idntimes.com/content-images/community/2020/08/luffy-cb483dbeee5e2e072dbd892853a050fa_600x400.jpg"
+  }
+]

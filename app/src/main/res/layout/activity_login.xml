@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <!-- Text view to display the
+       text "English (US)" at
+       uppermost part of the page-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English (United States)"
+        android:textColor="#c4c4c4"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:layout_centerHorizontal="true"
+        app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+
+    <!-- Linear layout to contain all the
+         editText, password , logo and button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp">
+
+        <!-- Imageview displaying the logo
+                or name of the application-->
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_insta" />
+
+        <!-- Edit text provided to user to
+             enter email, username or phone no.-->
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Phone number, email or username"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- Edit text provided to write
+              password (according to instagram UI)-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/inputPassword"
+            android:background="@drawable/background_edit_text"
+            android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"/>
+
+        <!-- material button is used to display the "Login" button to user-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#3897f0"
+            app:cornerRadius="4dp"/>
+
+
+
+        <!-- Text view displaying the text
+            "Forgot your login details?"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Linear layout to display the messgae
+            OR using view so that it can be shown seperetly-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12sp"
+            android:layout_gravity="center_vertical">
+
+            <!-- to occupy the rectangular area in left side
+                  so that message can be displayed in center-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="1"
+                android:background="#e2e2e2"/>
+
+            <!-- textview displaying the message "OR"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#9a9a9a"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- to occupy the rectangular area in right
+                  side so that message can be displayed in center-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="1"
+                android:background="#e2e2e2"/>
+
+        </LinearLayout>
+
+        <!-- text view to display the
+             message "Log in with Facebook-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:text=" Log in With Facebook"
+            android:drawableStart="@drawable/fb"
+            android:textColor="#3897f0"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#e2e2e2"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- text view to show the message
+          "Dont have an account?Sign up-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up"
+        android:text="@string/sign_up"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>
