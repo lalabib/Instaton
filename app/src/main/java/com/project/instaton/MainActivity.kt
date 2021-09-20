@@ -14,8 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val actionbar = supportActionBar
-        actionbar!!.hide()
+        supportActionBar?.hide()
 
         val homeBtn = findViewById<ImageView>(R.id.home_icon)
         val searchBtn = findViewById<ImageView>(R.id.search_icon)
