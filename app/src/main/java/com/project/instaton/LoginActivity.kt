@@ -18,8 +18,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val actionbar = supportActionBar
-        actionbar!!.hide()
+        supportActionBar?.hide()
 
         btnLogin = findViewById(R.id.btnLogin)
         inputEmail = findViewById(R.id.inputEmail)
