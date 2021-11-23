@@ -1,5 +1,5 @@
 # Instaton
-Instaton is an Instagram UI clone.
+Instaton is an Instagram UI clone
 
 ## Author
 #### Labib Hiba
