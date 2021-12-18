@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Instaton</string>
     <string name="action_settings">Settings</string>
-    <!-- string for showing the text "Forgot your login details-->
     <string name="forgot"><font color='c4c4c4'>Forgot your login details? </font><b> Get help logging in.</b></string>
-
-    <!-- string to show the text " Dont have an account-->
     <string name="sign_up"><font color='c4c4c4'>Dont have an account? </font><b> Sign up.</b></string>
 </resources>
